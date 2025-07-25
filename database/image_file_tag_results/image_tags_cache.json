@@ -1,1 +1,156 @@
-{}
+{
+    "0c15c9708e531e03d3611c0e105f2b564a3dd2cb8da0b8c3bf7c4586a52dd8e2": [
+        {
+            "label": "car",
+            "score": 0.9436069130897522
+        },
+        {
+            "label": "product",
+            "score": 0.03255261853337288
+        },
+        {
+            "label": "storefront",
+            "score": 0.004033103119581938
+        },
+        {
+            "label": "logo",
+            "score": 0.0039832815527915955
+        },
+        {
+            "label": "indoor",
+            "score": 0.003220135113224387
+        }
+    ],
+    "4ac284db675574f68762e31f6355109924e190968beb9a48d637a784d304d4c2": [
+        {
+            "label": "nature",
+            "score": 0.4973812997341156
+        },
+        {
+            "label": "outdoor",
+            "score": 0.15027987957000732
+        },
+        {
+            "label": "tree",
+            "score": 0.12522606551647186
+        },
+        {
+            "label": "office",
+            "score": 0.03111492097377777
+        },
+        {
+            "label": "food",
+            "score": 0.02710125967860222
+        }
+    ],
+    "e4c52b241875e70526e70f4da4a0f8bfd3e1c9be7a4d16752e722f0bc1db2151": [
+        {
+            "label": "car",
+            "score": 0.9537970423698425
+        },
+        {
+            "label": "product",
+            "score": 0.015406345948576927
+        },
+        {
+            "label": "outdoor",
+            "score": 0.011973852291703224
+        },
+        {
+            "label": "technology",
+            "score": 0.005506908521056175
+        },
+        {
+            "label": "nature",
+            "score": 0.002404900034889579
+        }
+    ],
+    "ef17d6ce5be36eb33bc35517238346305aa53d1bc2a86f1b29c2a9e94b1e4cd3": [
+        {
+            "label": "nature",
+            "score": 0.7244584560394287
+        },
+        {
+            "label": "tree",
+            "score": 0.17569856345653534
+        },
+        {
+            "label": "mobile phone",
+            "score": 0.04296621307730675
+        },
+        {
+            "label": "outdoor",
+            "score": 0.01805383712053299
+        },
+        {
+            "label": "laptop",
+            "score": 0.008162202313542366
+        }
+    ],
+    "92f6c87011c70c89348bba5918767b603538e61d8667b3b20935d47ae466e7d4": [
+        {
+            "label": "car",
+            "score": 0.8944712281227112
+        },
+        {
+            "label": "product",
+            "score": 0.03781984746456146
+        },
+        {
+            "label": "indoor",
+            "score": 0.03421388193964958
+        },
+        {
+            "label": "outdoor",
+            "score": 0.006952695082873106
+        },
+        {
+            "label": "food",
+            "score": 0.004316120874136686
+        }
+    ],
+    "c2119d22b85d813585bd0ff045257f8a260b3c279dc832aae024015a4c7bf094": [
+        {
+            "label": "nature",
+            "score": 0.8735520839691162
+        },
+        {
+            "label": "tree",
+            "score": 0.05092068761587143
+        },
+        {
+            "label": "mobile phone",
+            "score": 0.02510637231171131
+        },
+        {
+            "label": "outdoor",
+            "score": 0.020543701946735382
+        },
+        {
+            "label": "office",
+            "score": 0.011977573856711388
+        }
+    ],
+    "6619a9aab8ce79b32bc3599db4c225add49ecff2d45424a856b9b0aaa0586c5c": [
+        {
+            "label": "tree",
+            "score": 0.7074849009513855
+        },
+        {
+            "label": "nature",
+            "score": 0.2139597088098526
+        },
+        {
+            "label": "outdoor",
+            "score": 0.04082620143890381
+        },
+        {
+            "label": "table",
+            "score": 0.009539852850139141
+        },
+        {
+            "label": "person",
+            "score": 0.007365867495536804
+        }
+    ]
+}

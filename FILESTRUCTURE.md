@@ -1,5 +1,20 @@
 ┣ 📂bin
 ┃ ┗ 📜www
+┣ 📂client
+┃ ┣ 📂assets
+┃ ┃ ┣ 📂css
+┃ ┃ ┃ ┗ 📜input.css
+┃ ┃ ┗ 📂js
+┃ ┃   ┣ 📂pages
+┃ ┃   ┃ ┣ 📜image_dashboard.js
+┃ ┃   ┃ ┣ 📜router.js
+┃ ┃   ┃ ┗ 📜upload_images.js
+┃ ┃   ┣ 📜axios.min.js
+┃ ┃   ┣ 📜main.js
+┃ ┃   ┣ 📜vue.global.js
+┃ ┃   ┗ 📜vue.runtime.global.js
+┃ ┗ 📂views
+┃   ┗ 📜index.ejs
 ┣ 📂controllers
 ┃ ┣ 📜client_view_controller.js
 ┃ ┗ 📜image_tagger_controller.js

@@ -20,9 +20,9 @@ const PRODUCTION_ORIGIN_LIST = ["" ];
 
 const ALLOWED_IMAGE_TYPES = [ "image/jpeg", "image/png", "image/jpg", "image/webp" ];
 
-const MAX_IMAGE_FILE_COUNT = 3;
+const MAX_IMAGE_FILE_COUNT = 5;
 
-const MAX_IMAGE_FILE_SIZE = (5 * 1024 * 1024)
+const MAX_IMAGE_FILE_SIZE = (5 * 1024 * 1024) // 5 mb
 
 module.exports = {
     CSRFS_TOKEN_FOR_CONSTANTS,
