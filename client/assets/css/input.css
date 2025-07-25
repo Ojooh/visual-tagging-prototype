@@ -1,0 +1,123 @@
+body { font-family: sans-serif; padding: 2rem; }
+
+.image-box { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.image-item { border: 1px solid #ccc; padding: 10px; width: 180px; text-align: center; }
+
+img { max-width: 100%; border-radius: 8px; }
+
+.tag { font-size: 0.85rem; background: #eee; padding: 2px 6px; margin: 2px; border-radius: 4px; display: inline-block; }
+
+.upload-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.drop-zone {
+  border: 2px dashed #ccc;
+  padding: 2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  transition: background 0.2s;
+}
+.drop-zone:hover {
+  background: #f9f9f9;
+}
+
+.preview-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.preview-item {
+  width: 100px;
+  text-align: center;
+}
+.preview-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button[disabled] {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.image-card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+}
+
+.image-card img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+}
+
+.tag {
+  background-color: #007bff;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  user-select: none;
+}
+
+.no-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.no-tags button {
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.no-tags button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}

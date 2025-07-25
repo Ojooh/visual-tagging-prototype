@@ -1,0 +1,66 @@
+{
+  "name": "visual-tagging-prototype",
+  "version": "1.0.0",
+  "description": "A Node.js-based image tagging service that integrates with a Python-powered CLIP model to analyze and tag image content, with built-in caching, validation, and support for batch processing.",
+  "main": "./bin/www",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ojooh/visual-tagging-prototype.git"
+  },
+  "keywords": [
+    "\"image",
+    "tagging\"",
+    "\"image",
+    "analysis\"",
+    "\"CLIP",
+    "model\"",
+    "\"OpenAI",
+    "CLIP\"",
+    "\"image",
+    "classification\"",
+    "\"image",
+    "recognition\"",
+    "\"multimodal",
+    "AI\"",
+    "\"python",
+    "integration\"",
+    "\"node-python",
+    "bridge\"",
+    "\"image",
+    "cache\"",
+    "\"image",
+    "validator\"",
+    "\"batch",
+    "image",
+    "processing\"",
+    "\"machine",
+    "learning\"",
+    "\"vision",
+    "transformer\"",
+    "\"semantic",
+    "tagging\""
+  ],
+  "author": "David Matt-Ojo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ojooh/visual-tagging-prototype/issues"
+  },
+  "homepage": "https://github.com/Ojooh/visual-tagging-prototype#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "express-rate-limit": "^8.0.1",
+    "js-yaml": "^4.1.0",
+    "node-cache": "^5.1.2",
+    "request-ip": "^3.3.0"
+  }
+}

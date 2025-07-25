@@ -1,0 +1,9 @@
+
+node_modules/
+configs/
+logs/
+local_uploads/
+env/
+modules/python_image_tagger_analyzer/env/
+
+env.yaml

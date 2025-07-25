@@ -1,0 +1,16 @@
+{
+    "ignore": [
+        "configs/",
+        "logs/",
+        "*.log",
+        "tmp/",
+        "*.tmp",
+        "*.yaml",
+        "node_modules/",
+        ".git/",
+        "database/",
+        "local_uploads",
+        "env",
+        "modules/python_image_tagger_analyzer/env/"
+    ]
+}

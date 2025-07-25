@@ -1,0 +1,29 @@
+#!/usr/bin/env node
+
+// Import the Application class
+const Application     = require('../app'); 
+const debug           = require('debug')('server:server');
+const ServerUtils     = require('../utils/server_util');
+
+
+// Create an instance of the Application class
+const app_instance  = new Application(); 
+const app_port      = app_instance.ENV?.APP_PORT;
+const server_utils  = new ServerUtils(debug, app_port);
+const port          = server_utils.normalizePort(app_port || '4000');
+
+// Start the application and server
+app_instance.start(port)
+.then(() => {
+    const { server } = app_instance;
+    
+    server.on('error', server_utils.onServerError);
+
+    server.on('listening', () => { server_utils.onServerListening(server); });
+})
+.catch((error) => {
+    app_instance.logger.error('Failed to start the application:', error);
+    
+    process.exit(1);
+});
+
