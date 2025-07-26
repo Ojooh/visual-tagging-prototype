@@ -152,5 +152,71 @@
             "label": "person",
             "score": 0.007365867495536804
         }
+    ],
+    "c0a831eb1fc1ceee4cb1f8ab600198f5267106292e57d3bb0befc60fca1bd3cb": [
+        {
+            "label": "product",
+            "score": 0.7260549068450928
+        },
+        {
+            "label": "indoor",
+            "score": 0.10551183670759201
+        },
+        {
+            "label": "technology",
+            "score": 0.06574787944555283
+        },
+        {
+            "label": "outdoor",
+            "score": 0.01945691928267479
+        },
+        {
+            "label": "storefront",
+            "score": 0.017043286934494972
+        }
+    ],
+    "9870e99ac2a750afa84a6dea6be942b2d6e70a1532f47bf51da1f8f7c50e0be3": [
+        {
+            "label": "product",
+            "score": 0.81400066614151
+        },
+        {
+            "label": "outdoor",
+            "score": 0.04164760559797287
+        },
+        {
+            "label": "indoor",
+            "score": 0.036382824182510376
+        },
+        {
+            "label": "office",
+            "score": 0.03023580275475979
+        },
+        {
+            "label": "storefront",
+            "score": 0.01703021675348282
+        }
+    ],
+    "d7bf3c0856d9c7edaf2b74cba63207914b52ef329d1dd4f8ffdbc6ec98d32822": [
+        {
+            "label": "product",
+            "score": 0.8854197263717651
+        },
+        {
+            "label": "outdoor",
+            "score": 0.03493080288171768
+        },
+        {
+            "label": "office",
+            "score": 0.01611751690506935
+        },
+        {
+            "label": "indoor",
+            "score": 0.012919210828840733
+        },
+        {
+            "label": "technology",
+            "score": 0.00908363051712513
+        }
     ]
 }

@@ -227,6 +227,96 @@
             "tags": null,
             "created_at": "2025-07-25T16:36:03.885Z",
             "updated_at": "2025-07-25T16:36:03.885Z"
+        },
+        "f8657627-b47c-40b4-a7aa-45de3696730f": {
+            "image_id": "f8657627-b47c-40b4-a7aa-45de3696730f",
+            "session_id": "a1ed2a42-c724-4f6e-a8c3-59944dddf047",
+            "url_path": "http://localhost:3000/local_uploads/image_file_uploads/1753561582030_ckfcayjuk4a_fiyalo_data_25.jpg",
+            "file_path": "/Users/ojooh/Documents/Projects/web-server-apps/visual-tagging-prototype/local_uploads/image_file_uploads/1753561582030_ckfcayjuk4a_fiyalo_data_25.jpg",
+            "tags": [
+                {
+                    "label": "product",
+                    "score": 0.81400066614151
+                },
+                {
+                    "label": "outdoor",
+                    "score": 0.04164760559797287
+                },
+                {
+                    "label": "indoor",
+                    "score": 0.036382824182510376
+                },
+                {
+                    "label": "office",
+                    "score": 0.03023580275475979
+                },
+                {
+                    "label": "storefront",
+                    "score": 0.01703021675348282
+                }
+            ],
+            "created_at": "2025-07-26T20:26:22.031Z",
+            "updated_at": "2025-07-26T20:27:11.553Z"
+        },
+        "f1c6774f-6035-44e5-a84c-b88ef76f6c42": {
+            "image_id": "f1c6774f-6035-44e5-a84c-b88ef76f6c42",
+            "session_id": "a1ed2a42-c724-4f6e-a8c3-59944dddf047",
+            "url_path": "http://localhost:3000/local_uploads/image_file_uploads/1753561582031_5mfdzmrjc8b_fiyalo_data_26.jpg",
+            "file_path": "/Users/ojooh/Documents/Projects/web-server-apps/visual-tagging-prototype/local_uploads/image_file_uploads/1753561582031_5mfdzmrjc8b_fiyalo_data_26.jpg",
+            "tags": [
+                {
+                    "label": "product",
+                    "score": 0.8854197263717651
+                },
+                {
+                    "label": "outdoor",
+                    "score": 0.03493080288171768
+                },
+                {
+                    "label": "office",
+                    "score": 0.01611751690506935
+                },
+                {
+                    "label": "indoor",
+                    "score": 0.012919210828840733
+                },
+                {
+                    "label": "technology",
+                    "score": 0.00908363051712513
+                }
+            ],
+            "created_at": "2025-07-26T20:26:22.031Z",
+            "updated_at": "2025-07-26T20:27:11.554Z"
+        },
+        "9fab850c-effe-4e1b-8a2a-9abe21e1e9d6": {
+            "image_id": "9fab850c-effe-4e1b-8a2a-9abe21e1e9d6",
+            "session_id": "a1ed2a42-c724-4f6e-a8c3-59944dddf047",
+            "url_path": "http://localhost:3000/local_uploads/image_file_uploads/1753561582032_4dqz9gvwqou_fiyalo_data_27.jpg",
+            "file_path": "/Users/ojooh/Documents/Projects/web-server-apps/visual-tagging-prototype/local_uploads/image_file_uploads/1753561582032_4dqz9gvwqou_fiyalo_data_27.jpg",
+            "tags": [
+                {
+                    "label": "product",
+                    "score": 0.7260549068450928
+                },
+                {
+                    "label": "indoor",
+                    "score": 0.10551183670759201
+                },
+                {
+                    "label": "technology",
+                    "score": 0.06574787944555283
+                },
+                {
+                    "label": "outdoor",
+                    "score": 0.01945691928267479
+                },
+                {
+                    "label": "storefront",
+                    "score": 0.017043286934494972
+                }
+            ],
+            "created_at": "2025-07-26T20:26:22.032Z",
+            "updated_at": "2025-07-26T20:27:11.553Z"
         }
     }
 }
